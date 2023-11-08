@@ -7,15 +7,19 @@ html, body {
 header{
     position: center;
     vertical-align: middle;
+    display: flex;
 }
 #ma_photo{
     margin-right: 500px;
 }
 section,ul{
     margin-left: 20px;
+    display: flex;
+    flex-direction:column;
 }
 aside {
-    text-align: right;
-    margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
 }
 
