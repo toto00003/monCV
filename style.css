@@ -1,22 +1,21 @@
-body {
-    background-color: purple;
+html, body {
+    height: 100%;
 }
-h1{
-    color:green;
+#titre1{
+    text-align: center;
 }
-h2 {
-    color: green;
+header{
+    position: center;
+    vertical-align: middle;
 }
-main,p{
-    background: black;
-    height: 20px;
-    width: 50px;
-    min-width : 500px;
-    max-height : 300px;
-    border: 2px solid black ;
-    padding: 5px;
-    padding-top : 10px;
-    margin: 10px;
-    margin-left : 30px;
-    margin: auto;
+#ma_photo{
+    margin-right: 500px;
 }
+section,ul{
+    margin-left: 20px;
+}
+aside {
+    text-align: right;
+    margin-top: 10px;
+}
+
