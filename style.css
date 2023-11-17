@@ -17,7 +17,6 @@ header{
 }
 section,ul{
     margin-left: 20px;
-    display: flex;
     flex-direction:column;
 }
 article {
