@@ -11,33 +11,23 @@ header{
 #ma_photo{
     position: center;
 }
-.titre_haut{
-    vertical-align: middle;
-    display: flex;
-}
-section,ul{
-    margin-left: 20px;
-    flex-direction:column;
-}
-article {
+ul{
     display: flex;
     flex-direction:column;
-    align-items: center;
-    position: relative;
-    top: -750px;
-    
 }
-aside {
+
+ul{
+    background-color: #C0C0C0  ;
+    width: auto;
+    text-align: center;
+    border-style: inset;
+}
+
+div, #align_bloc{
     display: flex;
-    flex-direction:column;
-    align-items: flex-end;
-    position: relative;
-    top: -750px;
-    margin-right: 100px;
-    
+    text-align: center;
+    color: blue;
 }
-.align_bloc {
-    flex-direction: column;
-    
-}
+
+
 
